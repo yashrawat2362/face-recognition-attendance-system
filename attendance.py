@@ -24,7 +24,7 @@ class Attendance:
         self.var_atten_attendance=StringVar()
 
         #Image 1
-        img=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/attend1.jpeg')
+        img=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/attend1.jpeg')
         img=img.resize((500,130),Image.LANCZOS)
         self.photoimg=ImageTk.PhotoImage(img)
 
@@ -32,7 +32,7 @@ class Attendance:
         f_lbl.place(x=0,y=0,width=500,height=130)
 
         #image 2
-        img1=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/attend2.jpeg')
+        img1=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/attend2.jpeg')
         img1=img1.resize((500,130),Image.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -40,7 +40,7 @@ class Attendance:
         f_lbl.place(x=500,y=0,width=500,height=130)
 
         #image 3
-        img2=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/attend3.jpeg')
+        img2=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/attend3.jpeg')
         img2=img2.resize((500,130),Image.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -61,7 +61,7 @@ class Attendance:
         Left_frame.place(x=10,y=5,width=660,height=580)
 
         #left img
-        img_left=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/attend_left.jpeg')
+        img_left=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/attend_left.jpeg')
         img_left=img_left.resize((650,130),)
         self.photoimg_left=ImageTk.PhotoImage(img_left)
 
@@ -143,7 +143,7 @@ class Attendance:
         Right_frame=LabelFrame(main_frame,bd=2,relief=RIDGE,text='Attendance Details',font=('Helvetica',16,'italic'))
         Right_frame.place(x=690,y=5,width=720,height=580)
 
-        # img_right=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/stud_details.jpeg')
+        # img_right=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/stud_details.jpeg')
         # img_right=img_right.resize((700,130),)
         # self.photoimg_right=ImageTk.PhotoImage(img_right)
 

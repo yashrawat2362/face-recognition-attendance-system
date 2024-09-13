@@ -16,7 +16,7 @@ class Developer:
         title_lbl.place(x=0,y=0,width=1500,height=45)
 
         #image1
-        img_top=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/dev11.jpeg')
+        img_top=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/dev11.jpeg')
         img_top=img_top.resize((1500,745),Image.LANCZOS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
 

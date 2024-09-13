@@ -29,7 +29,7 @@ class student:
         self.var_teacher=StringVar()
     
         #Image 1
-        img=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/stud1.jpeg')
+        img=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/stud1.jpeg')
         img=img.resize((1500,130),Image.LANCZOS)
         self.photoimg=ImageTk.PhotoImage(img)
 
@@ -37,7 +37,7 @@ class student:
         f_lbl.place(x=0,y=0,width=1500,height=130)
 
         # #image 2
-        # img1=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/st2.jpeg')
+        # img1=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/st2.jpeg')
         # img1=img1.resize((500,130),Image.LANCZOS)
         # self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -45,7 +45,7 @@ class student:
         # f_lbl.place(x=500,y=0,width=500,height=130)
 
         # #image 3
-        # img2=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/st3.jpeg')
+        # img2=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/st3.jpeg')
         # img2=img2.resize((500,130),Image.LANCZOS)
         # self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -223,7 +223,7 @@ class student:
         Right_frame=LabelFrame(main_frame,bd=2,relief=RIDGE,text='Student Details',font=('Helvetica'))
         Right_frame.place(x=690,y=5,width=720,height=580)
 
-        img_right=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/studz_ryt.jpeg')
+        img_right=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/studz_ryt.jpeg')
         img_right=img_right.resize((700,130),)
         self.photoimg_right=ImageTk.PhotoImage(img_right)
 

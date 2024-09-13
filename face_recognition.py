@@ -20,7 +20,7 @@ class Face_Recognition:
         title_lbl.place(x=0,y=0,width=1500,height=55)
 
         #image1
-        img_top=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/face_recogbg.jpeg')
+        img_top=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/face_recogbg.jpeg')
         img_top=img_top.resize((1500,750),Image.LANCZOS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
 
@@ -28,7 +28,7 @@ class Face_Recognition:
         f_lbl.place(x=0,y=55,width=1500,height=750)
 
         # #image2
-        # img_btm=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/developer.jpeg')
+        # img_btm=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/developer.jpeg')
         # img_btm=img_btm.resize((950,750),Image.LANCZOS)
         # self.photoimg_btm=ImageTk.PhotoImage(img_btm)
 

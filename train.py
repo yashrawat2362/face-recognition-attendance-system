@@ -18,7 +18,7 @@ class Train:
         title_lbl.place(x=0,y=0,width=1500,height=45)
 
         #image1
-        img_top=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/train12.jpeg')
+        img_top=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/train12.jpeg')
         img_top=img_top.resize((1500,790),Image.LANCZOS)
         self.photoimg_top=ImageTk.PhotoImage(img_top)
 

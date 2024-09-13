@@ -19,7 +19,7 @@ class Face_Recognition_System:
         self.root.title("Face Recognition System By Yash Rawat")
 
         #Image 1
-        img=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/fc.jpeg')
+        img=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/fc.jpeg')
         img=img.resize((500,130),Image.LANCZOS)
         self.photoimg=ImageTk.PhotoImage(img)
 
@@ -27,7 +27,7 @@ class Face_Recognition_System:
         f_lbl.place(x=0,y=0,width=500,height=130)
 
         #image 2
-        img1=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/fc2.jpeg')
+        img1=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/fc2.jpeg')
         img1=img1.resize((500,130),Image.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -35,7 +35,7 @@ class Face_Recognition_System:
         f_lbl.place(x=500,y=0,width=500,height=130)
 
         #image 3
-        img2=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/fc3.jpeg')
+        img2=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/fc3.jpeg')
         img2=img2.resize((500,130),Image.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -43,7 +43,7 @@ class Face_Recognition_System:
         f_lbl.place(x=1000,y=0,width=500,height=130)
 
         #bg image
-        img3=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/bg.webp')
+        img3=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/bg.webp')
         img3=img3.resize((1500,660),Image.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -55,7 +55,7 @@ class Face_Recognition_System:
         title_lbl.place(x=0,y=0,width=1500,height=45)
 
         #student button
-        img4=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/student.jpeg')
+        img4=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/student.jpeg')
         img4=img4.resize((200,200),Image.LANCZOS)
         self.photoimg4=ImageTk.PhotoImage(img4)
 
@@ -66,7 +66,7 @@ class Face_Recognition_System:
         b1_txt.place(x=200,y=300,width=200,height=35)
 
         #detect_face button
-        img5=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/detection.jpeg')
+        img5=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/detection.jpeg')
         img5=img5.resize((200,200),Image.LANCZOS)
         self.photoimg5=ImageTk.PhotoImage(img5)
 
@@ -77,7 +77,7 @@ class Face_Recognition_System:
         b2_txt.place(x=500,y=300,width=200,height=35)
 
         #Attendance button
-        img6=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/attendance.jpeg')
+        img6=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/attendance.jpeg')
         img6=img6.resize((200,200),Image.LANCZOS)
         self.photoimg6=ImageTk.PhotoImage(img6)
 
@@ -88,7 +88,7 @@ class Face_Recognition_System:
         b3_txt.place(x=800,y=300,width=200,height=35)
 
         #help button
-        img7=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/help.jpeg')
+        img7=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/help.jpeg')
         img7=img7.resize((200,200),Image.LANCZOS)
         self.photoimg7=ImageTk.PhotoImage(img7)
 
@@ -99,7 +99,7 @@ class Face_Recognition_System:
         b4_txt.place(x=1100,y=300,width=200,height=35)
 
         #train button
-        img8=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/train.jpeg')
+        img8=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/train.jpeg')
         img8=img8.resize((200,200),Image.LANCZOS)
         self.photoimg8=ImageTk.PhotoImage(img8)
 
@@ -110,7 +110,7 @@ class Face_Recognition_System:
         b5_txt.place(x=200,y=580,width=200,height=35)
         
         #photos button
-        img9=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/photos.jpeg')
+        img9=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/photos.jpeg')
         img9=img9.resize((200,200),Image.LANCZOS)
         self.photoimg9=ImageTk.PhotoImage(img9)
 
@@ -121,7 +121,7 @@ class Face_Recognition_System:
         b6_txt.place(x=500,y=580,width=200,height=35)
 
         #developer button
-        img10=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/developer.jpeg')
+        img10=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/developer.jpeg')
         img10=img10.resize((200,200),Image.LANCZOS)
         self.photoimg10=ImageTk.PhotoImage(img10)
 
@@ -132,7 +132,7 @@ class Face_Recognition_System:
         b7_txt.place(x=800,y=580,width=200,height=35)
 
         #exit button
-        img11=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/college_images/exit.jpeg')
+        img11=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/exit.jpeg')
         img11=img11.resize((200,200),Image.LANCZOS)
         self.photoimg11=ImageTk.PhotoImage(img11)
 
