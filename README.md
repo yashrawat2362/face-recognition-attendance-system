@@ -1,4 +1,4 @@
-# Face Recognition Attendance System
+# Face Recognition Student Attendance System
 
 This project is a **Face Recognition Attendance System** that automatically records attendance by detecting and recognizing faces. It uses facial recognition technology to identify individuals and mark their attendance in a database.
 
