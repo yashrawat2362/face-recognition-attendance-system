@@ -1,15 +1,15 @@
-```markdown
-# Face Recognition Attendance System 🎭📚  
+
+# Face Recognition Attendance System  
 
 A **Face Recognition-based Attendance System** using **OpenCV, LBPH (Local Binary Pattern Histogram), Tkinter**, and **MySQL** for automated and efficient attendance management.
 
 ## Features ✨  
-- 🎭 **Face Detection & Recognition** using **LBPH Algorithm**  
-- 📷 **Live Camera Feed** for real-time face recognition  
-- 📋 **Automated Attendance Marking** in a database  
-- 📂 **CSV Import/Export** for attendance data  
-- 🖥️ **User-Friendly GUI** built with **Tkinter**  
-- 🛢️ **Database Integration** with **MySQL**  
+-  **Face Detection & Recognition** using **LBPH Algorithm**  
+-  **Live Camera Feed** for real-time face recognition  
+-  **Automated Attendance Marking** in a database  
+-  **CSV Import/Export** for attendance data  
+-  **User-Friendly GUI** built with **Tkinter**  
+-  **Database Integration** with **MySQL**  
 
 ## Installation 🔧  
 ### **Prerequisites**  
@@ -34,19 +34,19 @@ cd face-recognition-attendance-system
 python main.py
 ```
 
-## Usage 📝  
+## Usage   
 - **Register New Faces**: Capture and store student images.  
 - **Recognize Faces**: System matches live faces with stored data.  
 - **Mark Attendance**: Automatically logs recognized students in the database.  
 - **Export Attendance**: Save attendance records as CSV files.  
 
-## Technologies Used 🛠  
-- **Python** 🐍  
-- **OpenCV** 🎥  
-- **LBPH Algorithm** 🧠  
-- **Tkinter** 🖥️  
-- **MySQL** 🛢  
-- **CSV & Pandas** 📊  
+## Technologies Used   
+- **Python**   
+- **OpenCV**   
+- **LBPH Algorithm**   
+- **Tkinter**   
+- **MySQL**   
+- **CSV & Pandas**   
 
 ## Screenshots 🖼  
 *(Add screenshots of your GUI and output here)*  
@@ -65,4 +65,3 @@ This project is **MIT Licensed**.
 ---
 
 🚀 **Developed by [Yash Rawat](https://github.com/yashrawat2362)**  
-```
