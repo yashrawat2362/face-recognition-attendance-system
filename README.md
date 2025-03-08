@@ -49,7 +49,10 @@ python main.py
 - **CSV & Pandas**   
 
 ## Screenshots 🖼  
-*(Add screenshots of your GUI and output here)*  
+![Homepage layout](screenshots/home.png)
+![Screenshot Description](screenshots/student_management.png)
+![Screenshot Description](screenshots/attendance_management.png)
+![Screenshot Description](screenshots/data.png)  
 
 ## Future Enhancements 🚀  
 - Implement **Deep Learning (CNN) for better accuracy**  
@@ -58,9 +61,6 @@ python main.py
 
 ## Contributing 🤝  
 Feel free to fork this repository and contribute improvements!  
-
-## License 📜  
-This project is **MIT Licensed**.  
 
 ---
 
