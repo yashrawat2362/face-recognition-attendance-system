@@ -11,7 +11,8 @@ class Train:
     def __init__(self,root):
         self.root=root
         self.root.geometry("1500x790+0+0")
-        self.root.title("Face Recognition System By Yash Rawat")
+        self.root.title("Data Training | Face Recognition System")
+        self.root.focus_force()
 
         #title
         title_lbl=Label(self.root,text="TRAIN DATA SET",font=('Helvetica',30,'bold'),bg='RoyalBlue4',fg='cyan3')
@@ -29,6 +30,11 @@ class Train:
         #button
         b1_txt=Button(f_lbl1,text='Train Data',command=self.train_classifier,cursor='hand',font=('Helvetica',27,'bold'),fg='black',bg='black')
         b1_txt.place(x=630,y=370,width=200,height=45)
+
+        # Back Button
+        Button(self.root, text="⬅ Back to Main Menu", font=("Helvetica", 13, "bold"),
+               bg="cyan", fg="#000", activebackground="#003366", activeforeground="white",
+               cursor="hand2", command=self.root.destroy).place(x=640, y=730, width=220, height=40)
 
 
 
