@@ -13,7 +13,8 @@ class Face_Recognition:
     def __init__(self,root):
         self.root=root
         self.root.geometry("1500x790+0+0")
-        self.root.title("Face Recognition System By Yash Rawat")
+        self.root.title("Recognition | Face Recognition System")
+        self.root.focus_force()
 
         #title
         title_lbl=Label(self.root,text="FACE RECOGNITIONS",font=('Helvetica',30,'bold'),bg='RoyalBlue4',fg='cyan3')
@@ -38,6 +39,11 @@ class Face_Recognition:
         #button
         b1_txt=Button(f_lbl,text='FACE RECOGNITION',cursor='hand',command=self.face_recog,font=('Helvetica',20,'bold'),fg='black',bg='black')
         b1_txt.place(x=725,y=340,width=270,height=45)
+
+        # Back Button
+        Button(self.root, text="⬅ Back to Main Menu", font=("Helvetica", 13, "bold"),
+               bg="cyan", fg="#000", activebackground="#003366", activeforeground="white",
+               cursor="hand2", command=self.root.destroy).place(x=640, y=730, width=220, height=40)
 
     # =======Attendance==========
     def mark_attendace(self,i,r,n,d):
@@ -69,31 +75,34 @@ class Face_Recognition:
                     id,predict=clf.predict(gray_image[y:y+h,x:x+w])
                     # print(id)
                     confidence=int((100*(1-predict/300)))
-                    # print(confidence)
+                
 
-                    conn=mysql.connector.connect(host='localhost',user='root',passwd='S19k2dfb',database='face_recognizer',auth_plugin='mysql_native_password')
+                    conn=mysql.connector.connect(host='localhost',user='root',passwd='Yash@1234',database='face_recognizer',auth_plugin='mysql_native_password')
                     my_cursor=conn.cursor()
                     
                     my_cursor.execute('select Name from student where Student_ID='+str(id))
                     n=my_cursor.fetchone()
                     # print(n)
                     # n=str(n)
-                    n='+'.join(n)
+                    n='+'.join([str(x) for x in n])
 
                     my_cursor.execute('select Roll from student where Student_ID='+str(id))
                     r=my_cursor.fetchone()
                     # r=str(r)
-                    r='+'.join(r)
+                    # r='+'.join(r)
+                    r='+'.join([str(x) for x in r])
 
                     my_cursor.execute('select Dept from student where Student_ID='+str(id))
                     d=my_cursor.fetchone()
                     # d=str(d)
-                    d='+'.join(d)
+                    # d='+'.join(d)
+                    d='+'.join([str(x) for x in d])
 
                     my_cursor.execute('select Student_Id from student where Student_ID='+str(id))
                     i=my_cursor.fetchone()
                     # i=str(i)
-                    i='+'.join(i)
+                    # i='+'.join(i)
+                    i='+'.join([str(x) for x in i])
 
                     if confidence>77:
                         cv2.putText(img,f'ID:{i}',(x,y-75),cv2.FONT_HERSHEY_COMPLEX,0.8,(255,255,255),2)
