@@ -50,9 +50,10 @@ python main.py
 
 ## Screenshots 🖼  
 ![Homepage layout](screenshots/home.png)
-![Screenshot Description](screenshots/student_management.png)
-![Screenshot Description](screenshots/attendance_management.png)
-![Screenshot Description](screenshots/data.png)  
+![Attendance Frame](screenshots/frame.png)
+![Student Details Page](screenshots/student_management.png)
+![Attendance Details Page](screenshots/attendance_management.png)
+![Attendance Record](screenshots/data.png)  
 
 ## Future Enhancements 🚀  
 - Implement **Deep Learning (CNN) for better accuracy**  
