@@ -41,7 +41,7 @@ class Face_Recognition:
 
     # =======Attendance==========
     def mark_attendace(self,i,r,n,d):
-        with open('yash.csv','r+',newline='\n') as f:
+        with open('record.csv','r+',newline='\n') as f:
             myDataList=f.readlines()
             name_list=[]
             for line in myDataList:
