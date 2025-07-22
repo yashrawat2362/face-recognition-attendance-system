@@ -12,7 +12,8 @@ class Attendance:
     def __init__(self,root):
         self.root=root
         self.root.geometry("1500x790+0+0")
-        self.root.title("Face Recognition System By Yash Rawat")
+        self.root.title("Attendance Data | Face Recognition System")
+        self.root.focus_force()
 
         # =========>>>>>VARIABLES<<<=========
         self.var_atten_id=StringVar()
