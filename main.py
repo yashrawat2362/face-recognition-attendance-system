@@ -16,7 +16,8 @@ class Face_Recognition_System:
     def __init__(self,root):
         self.root=root
         self.root.geometry("1500x790+0+0")
-        self.root.title("Face Recognition System By Yash Rawat")
+        self.root.title("Home | Face Recognition System")
+        self.root.focus_force()
 
         #Image 1
         img=Image.open('/Users/yashrawat/Desktop/Face_Recognition_System/images/fc.jpeg')
@@ -174,11 +175,6 @@ class Face_Recognition_System:
     def dev_page(self):
         self.new_window=Toplevel(self.root)
         self.app=Developer(self.new_window)
-
-
-
-
-
 
 
 
